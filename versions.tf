@@ -3,5 +3,5 @@ variable "terraform_version" {
 }
 
 provider "aws" {
-  version = "terraform_version"
+  version = "~> 1.0.0"
 }
