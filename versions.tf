@@ -3,5 +3,5 @@ variable "terraform_version" {
 }
 
 provider "aws" {
-  version = terraform_version
+  version = "terraform_version"
 }
