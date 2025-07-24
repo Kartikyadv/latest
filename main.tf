@@ -1,7 +1,3 @@
-provider "aws" {
-  region = "ap-south-1"
-}
-
 resource "aws_instance" "example" {
   ami           = "ami-001d198b1662bb7dd"
   instance_type = "t3.medium"
